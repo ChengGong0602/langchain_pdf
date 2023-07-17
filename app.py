@@ -26,8 +26,7 @@ def main():
         callback_manager=callback_manager,
         verbose=True,
         n_ctx=4096,
-        n_batch=512,
-        device= 'cuda'
+        n_batch=512
     )
 
     # Load question answering chain
